@@ -56,13 +56,13 @@ json_to_excel("mydata.json", "result.xlsx")
 ]
 ```
 
-**Output Excel:**
+**Output (Excel):**
 
-name	age	country
-
-Arun	27	India
-John	30	Canada
-Sara	25	Sweden
+| name | age | country |
+|------|-----|---------|
+| Arun | 27  | India   |
+| John | 30  | Canada  |
+| Sara | 25  | Sweden  |
 
 
 
@@ -80,13 +80,12 @@ Sara	25	Sweden
 }
 ```
 
-**Output Excel:**
+**Output (Excel):**
 
-**order_id**	**item**    **price**	**user.id** **user.name**
-
-A-1	              Book	      12.5	        101	        Arun
-A-2	              Pen	      3.0	        101	        Arun
-
+| order_id | item | price | user.id | user.name |
+|----------|------|-------|---------|-----------|
+| A-1      | Book | 12.5  | 101     | Arun      |
+| A-2      | Pen  | 3.0   | 101     | Arun      |
 
 
 ---
